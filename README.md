@@ -1,97 +1,129 @@
-Here’s a **README.md** draft for your repo **finalyearARAnatomyproject2**. You can adjust/remove sections depending on your need:
+
+# 🌐 Human Anatomy AR Explorer
+
+*A Final-Year AR Project for Interactive 3D Human Anatomy Learning*
+
+A modern Augmented Reality (AR)–based anatomy learning application that allows users to explore human organs in 3D. Users can tap any organ to view its name, function, animations, and audio descriptions — making learning intuitive and engaging.
 
 ---
 
-````markdown
-# Human Anatomy AR Explorer
-
-A final-year AR/VR project for presenting the human anatomy in a 3D interactive environment. Users can tap or select organs to view names, functions, simulations, and audio descriptions — aimed at making anatomy learning immersive and intuitive.
-
 ## 🚀 Features
 
-- Interactive 3D human anatomy model with organ-level detail  
-- Tap/click any organ to display:  
-  - Organ name  
-  - Function summary  
-  - Animated simulation (where applicable)  
-  - Audio description for accessibility  
-- Augmented Reality (AR) mode — place the anatomy model in your real-world environment (no headset required)  
-- Clean UI built with React and modern web tech (TypeScript, Vite, Tailwind CSS)  
-- Backend (if applicable) or asset-pipeline support for managing 3D models and audio assets  
-- Deployed demo available [here](https://arproject-one.vercel.app/)
+* 🧍 **Full 3D human body model**
+* 🫁 **Tap on any organ** to view:
 
-## 🧰 Tech Stack
+  * Organ name
+  * Function description
+  * Animation / simulation
+  * Audio narration
+* 📱 **AR Mode** (no headset required) — view the anatomy model directly in your environment
+* 🎧 **Audio-assisted learning**
+* 🖥️ **Clean, responsive UI** built with React + Tailwind
+* 🌐 **Live Demo**: [https://arproject-one.vercel.app/](https://arproject-one.vercel.app/)
 
-- **Frontend**: React + TypeScript, Vite, Tailwind CSS  
-- **3D & AR**: WebXR / Three.js / AR.js (or your chosen library)  
-- **Assets**: High-quality 3D organ models, animations, audio narration  
-- **Deployment**: Hosted on Vercel (or your chosen platform)  
-- **Version Control**: Git + GitHub
+---
 
-## 🛠️ Installation & Running Locally
+## 🖼️ Screenshots for laptop and mobile view
+```md
+![AR Screenshot](images/pic1.png)
+![Organ Info UI](images/pic2.png)
+![Organ Info UI](images/pic3.png)
+![Organ Info UI](images/pic4.png)
+![Organ Info UI](images/pic5.png)
+![Organ Info UI](images/pic6.png)
+![Organ Info UI](images/pic7.png)
+![Organ Info UI](images/pic8.png)
 
-1. Clone the repo:  
+```
+
+(Just replace the image paths with your own.)
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer               | Technology                                               |
+| ------------------- | -------------------------------------------------------- |
+| **Frontend**        | React, TypeScript, Vite, Tailwind CSS                    |
+| **3D / AR**         | Three.js, WebXR, AR.js (or the one used in your project) |
+| **Assets**          | 3D models, textures, audio narrations                    |
+| **Deployment**      | Vercel                                                   |
+| **Version Control** | Git + GitHub                                             |
+
+---
+
+## 📦 Installation & Run Locally
+
+1. **Clone the repository**
+
    ```bash
    git clone https://github.com/raj-pandith/finalyearARAnatomyproject2.git
    cd finalyearARAnatomyproject2
-````
+   ```
 
-2. Install dependencies:
+2. **Install dependencies**
 
    ```bash
    npm install
    ```
 
-3. Start the development server:
+3. **Start development server**
 
    ```bash
    npm run dev
    ```
 
-4. Open in browser:
-   Navigate to `http://localhost:3000` (or the port shown) and enable camera access to test AR mode.
+4. **Open in browser**
+   Go to:
+   👉 [http://localhost:3000](http://localhost:3000)
+   Grant **camera permissions** to test AR mode.
 
-## 🎓 Usage & Learning Goals
+---
 
-* Intended as an educational tool for students of anatomy — helps visualise and interact with organs rather than just reading textbooks.
-* Useful for self-study or classroom demonstrations.
-* Offers an exploratory mode so users can discover organ systems at their own pace.
+## 🎯 Project Goals
 
-## 🧠 Project Structure
+* Make anatomy learning interactive and immersive
+* Help students visualize organs more clearly than flat diagrams
+* Enable hands-on AR exploration without any headset
+* Provide audio learning for better accessibility
+
+---
+
+## 📂 Project Structure
 
 ```
-/src
-  /assets      → 3D models, textures, audio files  
-  /components  → React UI components  
-  /scenes      → AR/3D scene management  
-  /styles      → Tailwind / CSS files  
+src/
+  assets/        → 3D models, textures, audio files  
+  components/    → UI Components  
+  scenes/        → AR/Three.js scenes  
+  styles/        → Tailwind/CSS  
 public/
-  index.html  
-package.json  
-vite.config.ts  
-```
-
-## ✅ Future Enhancements
-
-* Add **system-based views** (for example, circulatory, nervous, digestive) so users can isolate and explore each system.
-* Add **multi-language audio narration** (e.g., English, Hindi) for wider accessibility.
-* Add **quiz / assessment mode**: After exploring, users answer questions about organ functionality, location, etc.
-* Add **VR headset support** (e.g., WebXR VR mode) for immersive classroom sessions.
-* Optimize loading of 3D models and assets for slower devices (lazy-load, compression, LODs).
-
-## 📝 License
-
-MIT License — see [LICENSE](./LICENSE) for details.
-
-## 📬 Contact
-
-For questions or contributions, reach out to **Raj Pandith** (raj-pandith on GitHub).
-Happy exploring the human body in AR!
-
+  index.html
+package.json
+vite.config.ts
 ```
 
 ---
 
-If you like, I can **customize the README further** with screenshots, demo links, or badges for your project. Do you want that?
-::contentReference[oaicite:1]{index=1}
-```
+## 🚧 Future Enhancements
+
+* 🔬 Organ-system filters (Nervous, Digestive, Respiratory, etc.)
+* 🌍 Multi-language audio descriptions
+* 🎮 VR Mode using WebXR
+* 🧠 Quiz mode for learning assessment
+* 📱 Mobile performance optimizations (lazy-loading, model compression)
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+See the [LICENSE](./LICENSE) file for details.
+
+---
+
+## 👤 Author
+
+**Raj Pandith**
+GitHub: [raj-pandith](https://github.com/raj-pandith)
+
