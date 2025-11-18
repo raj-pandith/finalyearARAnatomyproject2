@@ -25,14 +25,14 @@ A modern Augmented Reality (AR)–based anatomy learning application that allows
 
 ## 🖼️ Screenshots for laptop and mobile view
 ```md
-![AR Screenshot](src/images/pic1.jpeg)
-![Organ Info UI](src/images/pic2.jpeg)
-![Organ Info UI](src/images/pic3.jpeg)
-![Organ Info UI](src/images/pic4.jpeg)
-![Organ Info UI](src/images/pic5.jpeg)
-![Organ Info UI](src/images/pic6.jpeg)
-![Organ Info UI](src/images/pic7.jpeg)
-![Organ Info UI](src/images/pic8.jpeg)
+![AR Screenshot](images/pic1.jpeg)
+![Organ Info UI](images/pic2.jpeg)
+![Organ Info UI](images/pic3.jpeg)
+![Organ Info UI](images/pic4.jpeg)
+![Organ Info UI](images/pic5.jpeg)
+![Organ Info UI](images/pic6.jpeg)
+![Organ Info UI](images/pic7.jpeg)
+![Organ Info UI](images/pic8.jpeg)
 
 ```
 
