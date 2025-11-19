@@ -36,6 +36,7 @@ A modern Augmented Reality (AR)–based anatomy learning application that allows
 ![Organ Info UI](images/pic6.jpeg)
 ![Organ Info UI](images/pic7.jpeg)
 ![Organ Info UI](images/pic8.jpeg)
+<img src="images/pic1.jpeg">
 
 ```
 
