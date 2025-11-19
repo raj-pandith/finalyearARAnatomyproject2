@@ -24,7 +24,7 @@ A modern Augmented Reality (AR)–based anatomy learning application that allows
 ---
 
 ## 🖼️ Screenshots for laptop and mobile view
-```md
+
 
 ![AR Screenshot](https://raw.githubusercontent.com/raj-pandith/finalyearARAnatomyproject2/main/images/pic1.jpeg)
 
@@ -36,9 +36,7 @@ A modern Augmented Reality (AR)–based anatomy learning application that allows
 ![Organ Info UI](images/pic6.jpeg)
 ![Organ Info UI](images/pic7.jpeg)
 ![Organ Info UI](images/pic8.jpeg)
-<img src="images/pic1.jpeg">
 
-```
 
 (Just replace the image paths with your own.)
 
