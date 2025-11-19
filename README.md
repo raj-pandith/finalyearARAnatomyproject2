@@ -26,17 +26,16 @@ A modern Augmented Reality (AR)–based anatomy learning application that allows
 ## 🖼️ Screenshots for laptop and mobile view
 
 
-![AR Screenshot](https://raw.githubusercontent.com/raj-pandith/finalyearARAnatomyproject2/main/images/pic1.jpeg)
-
-![AR Screenshot](images/pic1.jpeg)
-![Organ Info UI](images/pic2.jpeg)
-![Organ Info UI](images/pic3.jpeg)
-![Organ Info UI](images/pic4.jpeg)
-![Organ Info UI](images/pic5.jpeg)
-![Organ Info UI](images/pic6.jpeg)
-![Organ Info UI](images/pic7.jpeg)
-![Organ Info UI](images/pic8.jpeg)
-
+<span>
+<img src="images/pic1.jpeg" alt="AR Screenshot" width="500" height="700"/>
+<img src="images/pic2.jpeg" alt="AR Screenshot" width="500" heihgt="700"/>
+<img src="images/pic3.jpeg" alt="AR Screenshot" width="500" heihgt="700"/>
+<img src="images/pic4.jpeg" alt="AR Screenshot" width="500" heihgt="700"/>
+<img src="images/pic5.jpeg" alt="AR Screenshot" width="500" heihgt="700"/>
+<img src="images/pic6.jpeg" alt="AR Screenshot" width="500" heihgt="700"/>
+<img src="images/pic7.jpeg" alt="AR Screenshot" width="500" heihgt="700"/>
+<img src="images/pic8.jpeg" alt="AR Screenshot" width="500" heihgt="700"/>
+</span>
 
 (Just replace the image paths with your own.)
 
