@@ -54,12 +54,16 @@ export const AnatomyDetail: React.FC<AnatomyDetailProps> = ({
                 </p>
               </div>
               <div className="flex flex-col items-end space-y-2">
-                <div className={`${difficultyColors[system.difficulty]} px-3 py-1 rounded-full text-white text-sm font-medium`}>
+                {/* <div className={`${difficultyColors[system.difficulty]} px-3 py-1 rounded-full text-white text-sm font-medium`}>
                   {system.difficulty}
-                </div>
-                <button className="bg-white/20 backdrop-blur-sm p-2 rounded-lg hover:bg-white/30 transition-colors">
+                </div> */}
+                {/* <button className="bg-white/20 backdrop-blur-sm p-2 rounded-lg hover:bg-white/30 transition-colors">
                   <Share2 className="w-5 h-5 text-white" onClick={() => window.location.href = system.threedmodel} />
-                </button>
+                </button> */}
+                <div className="flex items-center gap-1">
+                  <div className="w-3 h-3 bg-red-500 rounded-full animate-ping"></div>
+                  <span className="text-green-500 font-semibold" onClick={() => window.location.href = system.threedmodel}> VIEW LIVE</span>
+                </div>
               </div>
             </div>
           </div>

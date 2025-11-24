@@ -14,7 +14,7 @@ export const ProgressTracker: React.FC<ProgressTrackerProps> = ({
   systems
 }) => {
   const progressPercentage = Math.round((studiedSystems.size / totalSystems) * 100);
-  
+
   const categoryProgress = {
     systems: systems.filter(s => s.category === 'systems' && studiedSystems.has(s.id)).length,
     organs: systems.filter(s => s.category === 'organs' && studiedSystems.has(s.id)).length,
@@ -89,13 +89,13 @@ export const ProgressTracker: React.FC<ProgressTrackerProps> = ({
       {/* Category Breakdown */}
       <div className="grid md:grid-cols-3 gap-6">
         <div className="bg-white rounded-2xl shadow-lg p-6">
-          <h3 className="text-lg font-bold text-gray-900 mb-4">Body Systems</h3>
+          <h3 className="text-lg font-bold text-gray-900 mb-4">AR Human Anatomy</h3>
           <div className="text-3xl font-bold text-blue-600 mb-2">
             {categoryProgress.systems}
           </div>
           <p className="text-gray-600">Systems studied</p>
         </div>
-        <div className="bg-white rounded-2xl shadow-lg p-6">
+        {/* <div className="bg-white rounded-2xl shadow-lg p-6">
           <h3 className="text-lg font-bold text-gray-900 mb-4">Major Organs</h3>
           <div className="text-3xl font-bold text-teal-600 mb-2">
             {categoryProgress.organs}
@@ -108,7 +108,7 @@ export const ProgressTracker: React.FC<ProgressTrackerProps> = ({
             {categoryProgress.tissues}
           </div>
           <p className="text-gray-600">Tissues studied</p>
-        </div>
+        </div> */}
       </div>
 
       {/* Difficulty Progress */}
@@ -123,8 +123,8 @@ export const ProgressTracker: React.FC<ProgressTrackerProps> = ({
             <div className="w-full bg-green-100 rounded-full h-2 mt-2">
               <div
                 className="bg-green-500 h-2 rounded-full transition-all duration-300"
-                style={{ 
-                  width: `${(difficultyProgress.beginner / systems.filter(s => s.difficulty === 'beginner').length) * 100}%` 
+                style={{
+                  width: `${(difficultyProgress.beginner / systems.filter(s => s.difficulty === 'beginner').length) * 100}%`
                 }}
               />
             </div>
@@ -137,8 +137,8 @@ export const ProgressTracker: React.FC<ProgressTrackerProps> = ({
             <div className="w-full bg-yellow-100 rounded-full h-2 mt-2">
               <div
                 className="bg-yellow-500 h-2 rounded-full transition-all duration-300"
-                style={{ 
-                  width: `${(difficultyProgress.intermediate / systems.filter(s => s.difficulty === 'intermediate').length) * 100}%` 
+                style={{
+                  width: `${(difficultyProgress.intermediate / systems.filter(s => s.difficulty === 'intermediate').length) * 100}%`
                 }}
               />
             </div>
@@ -151,8 +151,8 @@ export const ProgressTracker: React.FC<ProgressTrackerProps> = ({
             <div className="w-full bg-red-100 rounded-full h-2 mt-2">
               <div
                 className="bg-red-500 h-2 rounded-full transition-all duration-300"
-                style={{ 
-                  width: `${(difficultyProgress.advanced / systems.filter(s => s.difficulty === 'advanced').length) * 100}%` 
+                style={{
+                  width: `${(difficultyProgress.advanced / systems.filter(s => s.difficulty === 'advanced').length) * 100}%`
                 }}
               />
             </div>
@@ -167,29 +167,24 @@ export const ProgressTracker: React.FC<ProgressTrackerProps> = ({
           {achievements.map((achievement, index) => (
             <div
               key={index}
-              className={`p-6 rounded-xl border-2 transition-all duration-200 ${
-                achievement.achieved
-                  ? 'border-green-200 bg-green-50'
-                  : 'border-gray-200 bg-gray-50'
-              }`}
+              className={`p-6 rounded-xl border-2 transition-all duration-200 ${achievement.achieved
+                ? 'border-green-200 bg-green-50'
+                : 'border-gray-200 bg-gray-50'
+                }`}
             >
               <div className="flex items-center space-x-4">
-                <div className={`p-3 rounded-full ${
-                  achievement.achieved ? 'bg-green-100' : 'bg-gray-100'
-                }`}>
-                  <achievement.icon className={`w-6 h-6 ${
-                    achievement.achieved ? achievement.color : 'text-gray-400'
-                  }`} />
+                <div className={`p-3 rounded-full ${achievement.achieved ? 'bg-green-100' : 'bg-gray-100'
+                  }`}>
+                  <achievement.icon className={`w-6 h-6 ${achievement.achieved ? achievement.color : 'text-gray-400'
+                    }`} />
                 </div>
                 <div className="flex-1">
-                  <h3 className={`font-bold mb-1 ${
-                    achievement.achieved ? 'text-gray-900' : 'text-gray-500'
-                  }`}>
+                  <h3 className={`font-bold mb-1 ${achievement.achieved ? 'text-gray-900' : 'text-gray-500'
+                    }`}>
                     {achievement.title}
                   </h3>
-                  <p className={`text-sm ${
-                    achievement.achieved ? 'text-gray-600' : 'text-gray-400'
-                  }`}>
+                  <p className={`text-sm ${achievement.achieved ? 'text-gray-600' : 'text-gray-400'
+                    }`}>
                     {achievement.description}
                   </p>
                 </div>

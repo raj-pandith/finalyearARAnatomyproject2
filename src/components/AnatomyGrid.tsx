@@ -47,8 +47,8 @@ export const AnatomyGrid: React.FC<AnatomyGridProps> = ({
   return (
     <div className="space-y-8">
       {renderCategory('Body Systems', categories.systems)}
-      {renderCategory('Major Organs', categories.organs)}
-      {renderCategory('Tissues', categories.tissues)}
+      {/* {renderCategory('Major Organs', categories.organs)} */}
+      {/* {renderCategory('Tissues', categories.tissues)} */}
     </div>
   );
 };

@@ -40,8 +40,8 @@ export const Header: React.FC<HeaderProps> = ({
                 key={id}
                 onClick={() => onViewChange(id)}
                 className={`flex items-center space-x-2 px-4 py-2 rounded-lg transition-all duration-200 ${currentView === id
-                    ? 'bg-blue-600 text-white shadow-lg'
-                    : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900'
+                  ? 'bg-blue-600 text-white shadow-lg'
+                  : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900'
                   }`}
               >
                 <Icon className="w-4 h-4" />

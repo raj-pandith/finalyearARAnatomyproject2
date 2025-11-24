@@ -109,7 +109,7 @@ export const anatomySystems: AnatomySystem[] = [
   {
     id: 'eye',
     name: 'eye',
-    threedmodel: '',
+    threedmodel: 'https://mywebar.com/p/Project_0_jvgmo5vo4z',
     description: 'The organs that break down food and absorb nutrients',
     imageUrl: 'https://cdna.artstation.com/p/assets/images/images/026/148/004/large/alexander-beim-hyper-realistic-human-eye-iris-3d-cg-alexander-beim.jpg?1588008829',
     category: 'systems',
@@ -126,47 +126,5 @@ export const anatomySystems: AnatomySystem[] = [
       'It takes about 24-72 hours for food to travel through the system'
     ],
     relatedSystems: ['circulatory', 'nervous']
-  },
-  {
-    id: 'heart',
-    name: 'Human Heart',
-    threedmodel: 'https://mywebar.com/p/Project_2_ddtqyvws24',
-    description: 'The muscular organ that pumps blood throughout the body',
-    imageUrl: 'https://images.pexels.com/photos/7659561/pexels-photo-7659561.jpeg?auto=compress&cs=tinysrgb&w=800',
-    category: 'organs',
-    difficulty: 'intermediate',
-    keyPoints: [
-      'Four chambers: left and right atria and ventricles',
-      'Pumps oxygenated blood to the body and deoxygenated blood to the lungs',
-      'Electrical system controls the heartbeat rhythm',
-      'Size of a closed fist and weighs about 10-12 ounces'
-    ],
-    funFacts: [
-      'The heart starts beating at 3 weeks of pregnancy',
-      'A woman\'s heart beats faster than a man\'s',
-      'The heart can continue beating even when disconnected from the body'
-    ],
-    relatedSystems: ['circulatory', 'respiratory']
-  },
-  {
-    id: 'brain',
-    name: 'Human Brain',
-    threedmodel: 'https://mywebar.com/p/Project_0_8r3xbbthb6',
-    description: 'The control center of the nervous system and seat of consciousness',
-    imageUrl: 'https://images.pexels.com/photos/7659562/pexels-photo-7659562.jpeg?auto=compress&cs=tinysrgb&w=800',
-    category: 'organs',
-    difficulty: 'advanced',
-    keyPoints: [
-      'Weighs about 3 pounds and contains 86 billion neurons',
-      'Divided into cerebrum, cerebellum, and brainstem',
-      'Controls thoughts, emotions, memory, and body functions',
-      'Protected by the skull and cerebrospinal fluid'
-    ],
-    funFacts: [
-      'The brain is 75% water',
-      'It generates about 20 watts of power',
-      'The brain has no pain receptors'
-    ],
-    relatedSystems: ['nervous', 'circulatory']
   }
 ];

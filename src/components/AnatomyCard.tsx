@@ -31,9 +31,9 @@ export const AnatomyCard: React.FC<AnatomyCardProps> = ({
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
         />
         <div className="absolute top-3 left-3">
-          <span className={`px-2 py-1 rounded-full text-xs font-medium ${difficultyColors[system.difficulty]}`}>
+          {/* <span className={`px-2 py-1 rounded-full text-xs font-medium ${difficultyColors[system.difficulty]}`}>
             {system.difficulty}
-          </span>
+          </span> */}
         </div>
         <div className="absolute top-3 right-3">
           {isStudied ? (
