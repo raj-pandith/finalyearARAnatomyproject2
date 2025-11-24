@@ -25,7 +25,7 @@ export const anatomySystems: AnatomySystem[] = [
   {
     id: 'Kidney',
     name: 'Kidney',
-    threedmodel: '',
+    threedmodel: 'https://mywebar.com/p/Project_0_r16wi1kd2y',
     description: 'The network of muscles that enables movement and maintains posture',
     imageUrl: 'https://tse1.mm.bing.net/th/id/OIP.q0kqJWWE9-I0OoL-xOdR2wAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
     category: 'systems',
