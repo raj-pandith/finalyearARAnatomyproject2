@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Kidney — Bullet Points</title>
+
+  <style>
+    :root{
+      --bg:#f7faff;
+      --accent:#3b5cff;
+      --muted:#6b7280;
+      --maxw:900px;
+      --radius:12px;
+      --pad:20px;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+
+    body{
+      margin:0;
+      background:linear-gradient(180deg,var(--bg),#ffffff);
+      color:#111827;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:32px;
+      min-height:100vh;
+    }
+    h1{
+      margin:0 0 8px 0;
+      font-size:1.7rem;
+    }
+
+    section { margin-bottom:18px; }
+    .section-title{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      margin:0 0 10px 0;
+    }
+
+    .bullet-list{
+      margin:0;
+      padding-left:1.1rem;
+    }
+
+    .bullet-list li{
+      margin:8px 0;
+      line-height:1.5;
+    }
+
+    .bullet-list ul{
+      margin-top:6px;
+      margin-bottom:6px;
+      padding-left:1.1rem;
+    }
+
+    .muted{
+      color:var(--muted);
+      font-size:0.95rem;
+    }
+
+    @media (max-width:520px){
+      .card{ padding:16px; }
+      h1{ font-size:1.3rem; }
+    }
+  </style>
+</head>
+
+<body>
+  <article class="card" role="article" aria-label="Kidney: bullet point summary">
+    <header>
+      <h1>Human Kidney — Quick Bullet Summary</h1>
+    </header>
+
+    <!-- BASIC FACTS -->
+    <section aria-labelledby="basic-facts">
+      <div class="section-title">
+        <strong id="basic-facts">Basic Facts</strong>
+        <span class="muted">(overview)</span>
+      </div>
+      <ul class="bullet-list">
+        <li>Humans have <strong>two kidneys</strong>, located on either side of the spine.</li>
+        <li>Kidneys are part of the <strong>urinary system</strong> and responsible for filtering blood.</li>
+        <li>Each kidney is shaped like a bean and weighs about <strong>120–150 grams</strong>.</li>
+        <li>They filter nearly <strong>180 liters of blood</strong> per day to produce urine.</li>
+      </ul>
+    </section>
+
+    <!-- STRUCTURE -->
+    <section aria-labelledby="structure">
+      <div class="section-title">
+        <strong id="structure">Major Structures of the Kidney</strong>
+        <span class="muted">(anatomy)</span>
+      </div>
+      <ul class="bullet-list">
+        <li><strong>Cortex</strong> — Outer region; contains nephrons (filtering units).</li>
+        <li><strong>Medulla</strong> — Inner region; contains pyramids that collect filtered urine.</li>
+        <li><strong>Renal Pelvis</strong> — Funnel-like structure where urine collects before moving to the ureter.</li>
+        <li><strong>Ureter</strong> — Tube that carries urine from kidney to bladder.</li>
+        <li><strong>Nephron</strong>
+          <ul>
+            <li>Functional unit of the kidney.</li>
+            <li>Each kidney has about <strong>1 million nephrons</strong>.</li>
+            <li>Made up of glomerulus and tubules.</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section aria-labelledby="how-it-works">
+      <div class="section-title">
+        <strong id="how-it-works">How the Kidney Works</strong>
+        <span class="muted">(filtration process)</span>
+      </div>
+      <ul class="bullet-list">
+        <li>Blood enters the kidney through the renal artery.</li>
+        <li>The <strong>glomerulus</strong> filters waste, excess water, and toxins.</li>
+        <li>Useful substances like glucose, salts, and water are reabsorbed.</li>
+        <li>Remaining waste forms urine, which flows to the renal pelvis.</li>
+        <li>Urine travels to the bladder via the ureter for storage.</li>
+      </ul>
+    </section>
+
+    <!-- FUNCTIONS -->
+    <section aria-labelledby="functions">
+      <div class="section-title">
+        <strong id="functions">Functions of the Kidney</strong>
+      </div>
+      <ul class="bullet-list">
+        <li>Filters waste products and toxins from the bloodstream.</li>
+        <li>Maintains <strong>water balance</strong> and <strong>electrolyte levels</strong> (sodium, potassium, calcium).</li>
+        <li>Regulates <strong>blood pressure</strong> through renin production.</li>
+        <li>Produces erythropoietin which stimulates <strong>red blood cell formation</strong>.</li>
+        <li>Helps maintain correct pH levels in the body.</li>
+      </ul>
+    </section>
+
+    <!-- PROTECTIVE FEATURES -->
+    <section aria-labelledby="protection">
+      <div class="section-title">
+        <strong id="protection">Protective Features</strong>
+        <span class="muted">(support & safety)</span>
+      </div>
+      <ul class="bullet-list">
+        <li>Surrounded by a <strong>fibrous capsule</strong> that protects against injury.</li>
+        <li>Cushioned by a fat layer called <strong>perirenal fat</strong>.</li>
+        <li>Located deep within the rib cage for structural protection.</li>
+      </ul>
+    </section>
+
+    <!-- INTERESTING FACTS -->
+    <section aria-labelledby="facts">
+      <div class="section-title">
+        <strong id="facts">Interesting Facts</strong>
+      </div>
+      <ul class="bullet-list">
+        <li>Kidneys filter blood about <strong>40 times a day</strong>.</li>
+        <li>Only one kidney is enough to live a normal, healthy life.</li>
+        <li>They regulate blood volume by adjusting water levels.</li>
+        <li>Kidneys help activate <strong>Vitamin D</strong> to maintain healthy bones.</li>
+      </ul>
+    </section>
+
+    <!-- KEY POINTS -->
+    <section aria-labelledby="key-points">
+      <div class="section-title">
+        <strong id="key-points">Key Points About the Human Kidney</strong>
+      </div>
+      <ul class="bullet-list">
+        <li>Kidneys act as the body’s <strong>natural filtration system</strong>.</li>
+        <li>Nephrons are the main filtering units.</li>
+        <li>Maintain fluid balance, blood pressure, and pH levels.</li>
+        <li>Remove urea, creatinine, and toxic substances.</li>
+        <li>Play a major role in homeostasis and hormone production.</li>
+      </ul>
+    </section>
+
+  </article>
+</body>
+</html>

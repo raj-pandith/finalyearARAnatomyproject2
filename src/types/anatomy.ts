@@ -9,6 +9,7 @@ export interface AnatomySystem {
   keyPoints: string[];
   funFacts: string[];
   relatedSystems: string[];
+  htmlnotesName: string;
 }
 
 export interface QuizQuestion {

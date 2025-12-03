@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Skeleton System — Bullet Points</title>
+
+  <style>
+    :root{
+      --bg:#f7faff;
+      --accent:#3b5cff;
+      --muted:#6b7280;
+      --maxw:900px;
+      --radius:12px;
+      --pad:20px;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+
+    body{
+      margin:0;
+      background:linear-gradient(180deg,var(--bg),#ffffff);
+      color:#111827;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:32px;
+      min-height:100vh;
+    }
+    h1{
+      margin:0 0 8px 0;
+      font-size:1.7rem;
+    }
+
+    section { margin-bottom:18px; }
+    .section-title{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      margin:0 0 10px 0;
+    }
+
+    .bullet-list{
+      margin:0;
+      padding-left:1.1rem;
+    }
+
+    .bullet-list li{
+      margin:8px 0;
+      line-height:1.5;
+    }
+
+    .bullet-list ul{
+      margin-top:6px;
+      margin-bottom:6px;
+      padding-left:1.1rem;
+    }
+
+    .muted{
+      color:var(--muted);
+      font-size:0.95rem;
+    }
+
+    @media (max-width:520px){
+      .card{ padding:16px; }
+      h1{ font-size:1.3rem; }
+    }
+  </style>
+</head>
+
+<body>
+  <article class="card" role="article" aria-label="Skeleton System: bullet point summary">
+    <header>
+      <h1>Human Skeleton System — Quick Bullet Summary</h1>
+    </header>
+
+    <!-- BASIC FACTS -->
+    <section aria-labelledby="basic-facts">
+      <div class="section-title">
+        <strong id="basic-facts">Basic Facts</strong>
+        <span class="muted">(overview)</span>
+      </div>
+      <ul class="bullet-list">
+        <li>The human skeleton is the body's <strong>structural framework</strong>.</li>
+        <li>An adult has <strong>206 bones</strong>; infants have around 270 bones.</li>
+        <li>Bones protect organs, support muscles, and enable movement.</li>
+        <li>The skeleton produces blood cells and stores essential minerals.</li>
+      </ul>
+    </section>
+
+    <!-- DIVISIONS -->
+    <section aria-labelledby="divisions">
+      <div class="section-title">
+        <strong id="divisions">Major Divisions of the Skeleton</strong>
+        <span class="muted">(two main parts)</span>
+      </div>
+      <ul class="bullet-list">
+        <li><strong>Axial Skeleton</strong>
+          <ul>
+            <li>Consists of the skull, vertebral column, and rib cage.</li>
+            <li>Protects vital organs like the brain, spinal cord, and heart.</li>
+          </ul>
+        </li>
+        <li><strong>Appendicular Skeleton</strong>
+          <ul>
+            <li>Includes arms, legs, shoulder girdle, and pelvic girdle.</li>
+            <li>Responsible for movement and locomotion.</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <!-- BONE STRUCTURE -->
+    <section aria-labelledby="bone-structure">
+      <div class="section-title">
+        <strong id="bone-structure">Structure of a Bone</strong>
+        <span class="muted">(bone anatomy)</span>
+      </div>
+      <ul class="bullet-list">
+        <li><strong>Compact bone</strong> — Dense outer layer that provides strength.</li>
+        <li><strong>Spongy bone</strong> — Inner layer with spaces for bone marrow.</li>
+        <li><strong>Bone marrow</strong>
+          <ul>
+            <li>Red marrow — produces blood cells.</li>
+            <li>Yellow marrow — stores fat.</li>
+          </ul>
+        </li>
+        <li><strong>Periosteum</strong> — Outer covering supplying nutrients and blood.</li>
+      </ul>
+    </section>
+
+    <!-- FUNCTIONS -->
+    <section aria-labelledby="functions">
+      <div class="section-title">
+        <strong id="functions">Functions of the Skeleton System</strong>
+      </div>
+      <ul class="bullet-list">
+        <li><strong>Support</strong> — Provides shape and holds the body upright.</li>
+        <li><strong>Movement</strong> — Muscles attach to bones to enable motion.</li>
+        <li><strong>Protection</strong> — Bones shield organs (skull, ribs, spine).</li>
+        <li><strong>Blood Cell Production</strong> — Occurs in red bone marrow.</li>
+        <li><strong>Mineral Storage</strong> — Stores calcium and phosphorus.</li>
+        <li><strong>Detoxification</strong> — Bones absorb heavy metals from bloodstream.</li>
+      </ul>
+    </section>
+
+    <!-- JOINTS -->
+    <section aria-labelledby="joints">
+      <div class="section-title">
+        <strong id="joints">Joints of the Skeleton</strong>
+        <span class="muted">(movement types)</span>
+      </div>
+      <ul class="bullet-list">
+        <li><strong>Fixed joints</strong> — No movement (e.g., skull sutures).</li>
+        <li><strong>Cartilaginous joints</strong> — Limited movement (e.g., spine).</li>
+        <li><strong>Synovial joints</strong>
+          <ul>
+            <li>Freely movable joints (knee, shoulder, hip).</li>
+            <li>Contain synovial fluid to reduce friction.</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <!-- IMPORTANT BONES -->
+    <section aria-labelledby="important-bones">
+      <div class="section-title">
+        <strong id="important-bones">Important Bones in the Human Body</strong>
+      </div>
+      <ul class="bullet-list">
+        <li><strong>Skull</strong> — Protects the brain.</li>
+        <li><strong>Spine (vertebrae)</strong> — Supports the body and houses the spinal cord.</li>
+        <li><strong>Ribs</strong> — Protect heart and lungs.</li>
+        <li><strong>Femur</strong> — Longest and strongest bone in the body.</li>
+        <li><strong>Humerus</strong> — Upper arm bone.</li>
+        <li><strong>Tibia & Fibula</strong> — Lower leg bones.</li>
+        <li><strong>Pelvis</strong> — Supports abdominal organs.</li>
+        <li><strong>Clavicle</strong> — Collarbone, supports shoulder movement.</li>
+      </ul>
+    </section>
+
+    <!-- INTERESTING FACTS -->
+    <section aria-labelledby="facts">
+      <div class="section-title">
+        <strong id="facts">Interesting Facts</strong>
+      </div>
+      <ul class="bullet-list">
+        <li>Bones are constantly renewed — complete replacement every <strong>7–10 years</strong>.</li>
+        <li>More than <strong>half of bones</strong> are located in the hands and feet.</li>
+        <li>Bones are stronger than steel by weight.</li>
+        <li>Babies have more bones that fuse together with age.</li>
+      </ul>
+    </section>
+
+    <!-- KEY POINTS -->
+    <section aria-labelledby="key-points">
+      <div class="section-title">
+        <strong id="key-points">Key Points About the Skeleton System</strong>
+      </div>
+      <ul class="bullet-list">
+        <li>The skeleton supports and protects vital organs.</li>
+        <li>Movement occurs due to the interaction of bones, joints, and muscles.</li>
+        <li>Bone marrow plays a key role in blood cell production.</li>
+        <li>Minerals like calcium and phosphorus are stored in bones.</li>
+        <li>Skeleton ensures body shape, structure, and posture.</li>
+      </ul>
+    </section>
+
+  </article>
+</body>
+</html>

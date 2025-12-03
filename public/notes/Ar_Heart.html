@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Heart — Bullet Points</title>
+  <style>
+    :root{
+      --bg:#f7fbff;
+      
+      --accent:#e63946;
+      --muted:#6b7280;
+      --maxw:900px;
+      --radius:12px;
+      --pad:20px;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    body{
+      margin:0;
+      background:linear-gradient(180deg,var(--bg),#ffffff);
+      color:#111827;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:32px;
+      min-height:100vh;
+      
+    }
+    h1{
+      margin:0 0 8px 0;
+      font-size:1.6rem;
+      letter-spacing:-0.2px;
+    }
+    p.lead{
+      margin:0 0 18px 0;
+      color:var(--muted);
+    }
+
+    /* List styling */
+    section { margin-bottom:18px; }
+    .section-title{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      margin:0 0 10px 0;
+    }
+    .bullet-list{
+      margin:0;
+      padding-left:1.1rem;
+    }
+    .bullet-list li{
+      margin:8px 0;
+      line-height:1.5;
+    }
+
+    /* nested list */
+    .bullet-list ul{
+      margin-top:6px;
+      margin-bottom:6px;
+      padding-left:1.1rem;
+    }
+
+    /* small tag style */
+    .muted{
+      color:var(--muted);
+      font-size:0.95rem;
+    }
+
+    /* responsive tweak */
+    @media (max-width:520px){
+      .card{ padding:16px; }
+      h1{ font-size:1.25rem; }
+    }
+  </style>
+</head>
+<body >
+    
+  <article class="card" role="article" aria-label="Heart: bullet point summary">
+    <header>
+      <h1>Human Heart — Quick Bullet Summary</h1>
+     
+    </header>
+
+    <section aria-labelledby="basic-facts">
+      <div class="section-title">
+        <strong id="basic-facts">Basic Facts</strong>
+        <span class="muted">(overview)</span>
+      </div>
+      <ul class="bullet-list">
+        <li>The heart is a <strong>muscular organ</strong> </li>
+        <li>Located slightly to the <strong>left of center</strong> in the chest cavity.</li>
+        <li>Main function: <strong>pump blood</strong> to deliver oxygen & nutrients and remove wastes.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="structure">
+      <div class="section-title">
+        <strong id="structure">Structure of the Heart</strong>
+        <span class="muted">(chambers & valves)</span>
+      </div>
+      <ul class="bullet-list">
+        <li>Four chambers:
+          <ul>
+            <li><strong>Right atrium</strong> — receives deoxygenated blood from the body.</li>
+            <li><strong>Right ventricle</strong> — pumps blood to the lungs.</li>
+            <li><strong>Left atrium</strong> — receives oxygenated blood from the lungs.</li>
+            <li><strong>Left ventricle</strong> — pumps blood to the body (strongest chamber).</li>
+          </ul>
+        </li>
+        <li>Four main valves: Tricuspid, Pulmonary, Mitral, Aortic — prevent backflow.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="circulation">
+      <div class="section-title">
+        <strong id="circulation">Circulation Pathway</strong>
+        <span class="muted">(two loops)</span>
+      </div>
+      <ul class="bullet-list">
+        <li><strong>Pulmonary circulation</strong>: right side → lungs → oxygen exchange.</li>
+        <li><strong>Systemic circulation</strong>: left side → body → delivers oxygen & nutrients.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="how-it-works">
+      <div class="section-title">
+        <strong id="how-it-works">How It Works</strong>
+        <span class="muted">(beats & electrical control)</span>
+      </div>
+      <ul class="bullet-list">
+        <li>Average resting heart rate ≈ <strong>72 beats per minute</strong> (varies by person).</li>
+        <li>Two phases per beat:
+          <ul>
+            <li><strong>Systole</strong> — contraction, blood is pumped out.</li>
+            <li><strong>Diastole</strong> — relaxation, chambers fill with blood.</li>
+          </ul>
+        </li>
+        <li>Electrical impulse starts at the <strong>SA (sinoatrial) node</strong> — the natural pacemaker.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="interesting-facts">
+      <div class="section-title">
+        <strong id="interesting-facts">Interesting Facts</strong>
+      </div>
+      <ul class="bullet-list">
+        <li>The heart pumps about <strong>7,500 liters of blood per day</strong> (approx.).</li>
+        <li>Left ventricle has the thickest wall — it generates the highest pressure.</li>
+        <li>Healthy lifestyle (exercise, diet, no smoking) supports heart function.</li>
+        <li>Emotions and the nervous system can influence heart rate.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="ar-suggestions">
+      <div class="section-title">
+        <strong id="ar-suggestions">AR Anatomy Explorer ideas</strong>
+        
+      </div>
+      <ul class="bullet-list">
+        <li>The AR Anatomy Explorer is an interactive learning application designed<br>
+           to make the study of human anatomy more engaging, visual, and accessible.</li>
+        <li>Instead of relying only on traditional textbooks or 2D diagrams, this tool uses <br>
+          Augmented Reality (AR) to project 3D anatomical models into the real world <br>through a 
+          mobile device. Learners can rotate, zoom, and interact with organs <br> and body systems
+           as if they were physically present in front of them.</li>
+
+        <li>The application aims to simplify complex anatomy concepts by offering an <br>
+           immersive environment where students can observe structures from multiple <br>
+           angles, understand  their spatial relationships, and explore layers of the human <br>
+           body in a more intuitive way.By using technologies like RealityKit and ARKit 
+           <br>(or similar AR frameworks),the platform provides smooth rendering, <br>realistic visuals, and accurate anatomical models.
+        <li>3D visualization with toggleable layers: muscle, valves, vessels.</li>
+        <li>Interactive blood flow animation showing pulmonary vs systemic circulation.</li>
+        <li>Real-time beat simulation & adjustable heart rate slider.</li>
+      </ul>
+    </section>
+  </article>
+</body>
+</html>

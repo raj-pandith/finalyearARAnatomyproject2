@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Eye — Bullet Points</title>
+
+  <style>
+    :root{
+      --bg:#f7faff;
+      --accent:#3b5cff;
+      --muted:#6b7280;
+      --maxw:900px;
+      --radius:12px;
+      --pad:20px;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+
+    body{
+      margin:0;
+      background:linear-gradient(180deg,var(--bg),#ffffff);
+      color:#111827;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:32px;
+      min-height:100vh;
+    }
+    h1{
+      margin:0 0 8px 0;
+      font-size:1.7rem;
+    }
+    p.lead{
+      margin:0 0 18px 0;
+      color:var(--muted);
+    }
+
+    section { margin-bottom:18px; }
+    .section-title{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      margin:0 0 10px 0;
+    }
+
+    .bullet-list{
+      margin:0;
+      padding-left:1.1rem;
+    }
+
+    .bullet-list li{
+      margin:8px 0;
+      line-height:1.5;
+    }
+
+    .bullet-list ul{
+      margin-top:6px;
+      margin-bottom:6px;
+      padding-left:1.1rem;
+    }
+
+    .muted{
+      color:var(--muted);
+      font-size:0.95rem;
+    }
+
+    @media (max-width:520px){
+      .card{ padding:16px; }
+      h1{ font-size:1.3rem; }
+    }
+  </style>
+</head>
+
+<body>
+  <article class="card" role="article" aria-label="Eye: bullet point summary">
+    <header>
+      <h1>Human Eye — Quick Bullet Summary</h1>
+    </header>
+
+    <!-- BASIC FACTS -->
+    <section aria-labelledby="basic-facts">
+      <div class="section-title">
+        <strong id="basic-facts">Basic Facts</strong>
+        <span class="muted">(overview)</span>
+      </div>
+      <ul class="bullet-list">
+        <li>The eye is the body's primary <strong>visual organ</strong>.</li>
+        <li>It detects light and sends signals to the brain to form images.</li>
+        <li>Located in the eye socket (orbit) and protected by eyelids and eyelashes.</li>
+        <li>Works with the <strong>optic nerve</strong> to transmit visual information.</li>
+      </ul>
+    </section>
+
+    <!-- STRUCTURE -->
+    <section aria-labelledby="structure">
+      <div class="section-title">
+        <strong id="structure">Major Structures of the Eye</strong>
+        <span class="muted">(anatomy)</span>
+      </div>
+      <ul class="bullet-list">
+        <li><strong>Cornea</strong> — Transparent front layer that bends (refracts) light.</li>
+        <li><strong>Iris</strong> — Colored part of the eye; controls pupil size.</li>
+        <li><strong>Pupil</strong> — Opening that regulates the amount of light entering the eye.</li>
+        <li><strong>Lens</strong> — Focuses light onto the retina by changing shape (accommodation).</li>
+        <li><strong>Retina</strong>
+          <ul>
+            <li>Contains rods (low light vision) and cones (color vision).</li>
+            <li>Converts light into electrical signals.</li>
+          </ul>
+        </li>
+        <li><strong>Optic Nerve</strong> — Carries visual signals to the brain.</li>
+        <li><strong>Vitreous Humor</strong> — Clear gel that fills the eyeball.</li>
+        <li><strong>Aqueous Humor</strong> — Fluid that maintains eye pressure and nourishes cornea & lens.</li>
+      </ul>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section aria-labelledby="how-it-works">
+      <div class="section-title">
+        <strong id="how-it-works">How the Eye Works</strong>
+        <span class="muted">(vision process)</span>
+      </div>
+      <ul class="bullet-list">
+        <li>Light enters through the <strong>cornea</strong> and passes through the pupil.</li>
+        <li>The <strong>lens</strong> focuses light on the retina.</li>
+        <li>The <strong>retina</strong> converts light into nerve signals.</li>
+        <li>Signals travel via the <strong>optic nerve</strong> to the brain to produce vision.</li>
+        <li>The brain flips and interprets the image, making sense of what we see.</li>
+      </ul>
+    </section>
+
+    <!-- PROTECTIVE FEATURES -->
+    <section aria-labelledby="protection">
+      <div class="section-title">
+        <strong id="protection">Protective Features</strong>
+        <span class="muted">(safety & support)</span>
+      </div>
+      <ul class="bullet-list">
+        <li><strong>Eyelids</strong> — Protect the eye and keep it moist.</li>
+        <li><strong>Eyelashes</strong> — Prevent dust and particles from entering.</li>
+        <li><strong>Tear glands</strong> — Produce tears to clean and lubricate the eye.</li>
+        <li><strong>Sclera</strong> — Tough outer covering providing structure.</li>
+      </ul>
+    </section>
+
+    <!-- FUNCTIONS -->
+    <section aria-labelledby="functions">
+      <div class="section-title">
+        <strong id="functions">Functions of the Eye</strong>
+      </div>
+      <ul class="bullet-list">
+        <li>Provides vision by detecting light and color.</li>
+        <li>Enables depth perception and spatial awareness.</li>
+        <li>Adjusts to different light levels through pupil dilation and constriction.</li>
+        <li>Supports visual accommodation for near and distant objects.</li>
+      </ul>
+    </section>
+
+    <!-- INTERESTING FACTS -->
+    <section aria-labelledby="facts">
+      <div class="section-title">
+        <strong id="facts">Interesting Facts</strong>
+      </div>
+      <ul class="bullet-list">
+        <li>The human eye can distinguish about <strong>10 million colors</strong>.</li>
+        <li>Eyes blink around <strong>15–20 times per minute</strong>.</li>
+        <li>The retina processes visual information faster than a camera.</li>
+        <li>Each eye has about <strong>120 million rods</strong> and <strong>6 million cones</strong>.</li>
+      </ul>
+    </section>
+
+    <!-- KEY POINTS -->
+    <section aria-labelledby="key-points">
+      <div class="section-title">
+        <strong id="key-points">Key Points About the Human Eye</strong>
+      </div>
+      <ul class="bullet-list">
+        <li>The eye acts like a <strong>camera</strong>, capturing and focusing light.</li>
+        <li>The cornea and lens together help form a sharp image.</li>
+        <li>Rods help in night vision; cones help in color and sharp detail.</li>
+        <li>The optic nerve connects the eye to the brain for image processing.</li>
+        <li>The eye adjusts focus using a process called <strong>accommodation</strong>.</li>
+        <li>Vision results from combined action of the eye and brain.</li>
+      </ul>
+    </section>
+
+  </article>
+</body>
+</html>

@@ -20,7 +20,8 @@ export const anatomySystems: AnatomySystem[] = [
       'Bones are actually living tissue that constantly regenerates',
       'The smallest bone is the stapes in the ear'
     ],
-    relatedSystems: ['muscular', 'circulatory']
+    relatedSystems: ['muscular', 'circulatory'],
+    htmlnotesName: "Ar_skeleton.html"
   },
   {
     id: 'Kidney',
@@ -41,7 +42,8 @@ export const anatomySystems: AnatomySystem[] = [
       'Muscles make up about 40% of body weight',
       'The heart is the hardest working muscle'
     ],
-    relatedSystems: ['skeletal', 'nervous']
+    relatedSystems: ['skeletal', 'nervous'],
+    htmlnotesName: "Ar_kidney.html"
   },
   {
     id: 'Heart',
@@ -62,7 +64,8 @@ export const anatomySystems: AnatomySystem[] = [
       'Blood makes up about 7% of body weight',
       'Red blood cells live for about 120 days'
     ],
-    relatedSystems: ['respiratory', 'lymphatic']
+    relatedSystems: ['respiratory', 'lymphatic'],
+    htmlnotesName: "Ar_Heart.html"
   },
   {
     id: 'Brain',
@@ -83,7 +86,8 @@ export const anatomySystems: AnatomySystem[] = [
       'Nerve impulses can travel up to 268 mph',
       'The brain uses about 20% of the body\'s energy'
     ],
-    relatedSystems: ['muscular', 'endocrine']
+    relatedSystems: ['muscular', 'endocrine'],
+    htmlnotesName: "Ar_Brain.html"
   },
   {
     id: 'Lungs',
@@ -104,7 +108,8 @@ export const anatomySystems: AnatomySystem[] = [
       'Lungs contain about 300 million alveoli',
       'The surface area of lungs is about the size of a tennis court'
     ],
-    relatedSystems: ['circulatory', 'muscular']
+    relatedSystems: ['circulatory', 'muscular'],
+    htmlnotesName: "Ar_Lungs.html"
   },
   {
     id: 'eye',
@@ -125,6 +130,7 @@ export const anatomySystems: AnatomySystem[] = [
       'Stomach acid is strong enough to dissolve metal',
       'It takes about 24-72 hours for food to travel through the system'
     ],
-    relatedSystems: ['circulatory', 'nervous']
+    relatedSystems: ['circulatory', 'nervous'],
+    htmlnotesName: "Ar_eye.html"
   }
 ];

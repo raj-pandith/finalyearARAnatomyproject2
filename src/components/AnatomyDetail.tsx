@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ArrowLeft, BookOpen, Lightbulb, Link, Share2 } from 'lucide-react';
 import { AnatomySystem } from '../types/anatomy';
+import DownloadButton from './DownloadButton.jsx';
 
 interface AnatomyDetailProps {
   system: AnatomySystem;
@@ -24,6 +25,9 @@ export const AnatomyDetail: React.FC<AnatomyDetailProps> = ({
     intermediate: 'bg-yellow-500',
     advanced: 'bg-red-500'
   };
+
+
+
 
   return (
     <div className="max-w-6xl mx-auto">
@@ -127,6 +131,10 @@ export const AnatomyDetail: React.FC<AnatomyDetailProps> = ({
               </div>
             )}
 
+            <DownloadButton fileName={system.htmlnotesName} />
+
+
+
             {activeTab === 'related' && (
               <div className="space-y-6">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Related Systems</h3>
@@ -150,6 +158,6 @@ export const AnatomyDetail: React.FC<AnatomyDetailProps> = ({
           </div>
         </div>
       </div>
-    </div>
+    </div >
   );
 };
